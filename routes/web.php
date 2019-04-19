@@ -23,3 +23,12 @@ Route::get('test1',function (){
 Route::get('abc',function (){
     return 'abc';
 });
+Route::get('abcd',function (){
+    return 'abcd';
+});
+
+
+
+
+
+
