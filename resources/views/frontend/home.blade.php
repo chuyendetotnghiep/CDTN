@@ -7,22 +7,22 @@
     <meta name="keywords" content="academica, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
-    <link href="frontend/asset/img/favicon.ico" rel="shortcut icon"/>
+    <link href="frontend/img/favicon.ico" rel="shortcut icon"/>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="frontend/asset/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="frontend/asset/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="frontend/asset/css/flaticon.css"/>
-    <link rel="stylesheet" href="frontend/asset/css/owl.carousel.css"/>
-    <link rel="stylesheet" href="frontend/asset/css/style.css"/>
+    <link rel="stylesheet" href="frontend/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="frontend/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="frontend/css/flaticon.css"/>
+    <link rel="stylesheet" href="frontend/css/owl.carousel.css"/>
+    <link rel="stylesheet" href="frontend/css/style.css"/>
 
 
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="frontend/https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="frontend/https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
@@ -37,7 +37,7 @@
     <div class="header-warp">
         <div class="container">
             <a href="#" class="site-logo">
-                <img src="frontend/asset/img/logo.png" alt="">
+                <img src="frontend/img/logo.png" alt="">
             </a>
             <div class="user-panel">
                 <a href="#">Login</a><span>/</span><a href="">Register</a>
@@ -59,7 +59,7 @@
 
 
 <!-- Hero section -->
-<section class="hero-section set-bg" data-setbg="img/bg.jpg">
+<section class="hero-section set-bg" data-setbg="frontend/img/bg.jpg">
     <div class="container">
         <div class="row">
             <div class="col-lg-7">
@@ -163,7 +163,7 @@
 
 
 <!-- Review section -->
-<section class="review-section spad set-bg" data-setbg="img/review-bg.jpg">
+<section class="review-section spad set-bg" data-setbg="frontend/img/review-bg.jpg">
     <div class="container">
         <div class="sec-title text-center text-white">
             <span>our students</span>
@@ -176,14 +176,14 @@
                         <div class="quota">“</div>
                         <h5>It helped me so much</h5>
                         <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Etiam nec odio vestibulum est mat tis effic iturut magna vestibulum est mat tis effic iturut magna.</p>
-                        <div class="review-avator set-bg" data-setbg="img/review-avator.jpg"></div>
+                        <div class="review-avator set-bg" data-setbg="frontend/img/review-avator.jpg"></div>
                         <h6><span>Daiane Smith,</span> Student</h6>
                     </div>
                     <div class="rs-item">
                         <div class="quota">“</div>
                         <h5>It helped me so much</h5>
                         <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Etiam nec odio vestibulum est mat tis effic iturut magna vestibulum est mat tis effic iturut magna.</p>
-                        <div class="review-avator set-bg" data-setbg="img/review-avator.jpg"></div>
+                        <div class="review-avator set-bg" data-setbg="frontend/img/review-avator.jpg"></div>
                         <h6><span>Daiane Smith,</span> Student</h6>
                     </div>
                 </div>
@@ -205,7 +205,7 @@
             <!-- course -->
             <div class="course-item">
                 <figure class="course-preview">
-                    <img src="img/courses/1.jpg" alt="">
+                    <img src="frontend/img/courses/1.jpg" alt="">
                     <div class="price">$25</div>
                 </figure>
                 <div class="course-content">
@@ -223,7 +223,7 @@
                         </div>
                     </div>
                     <div class="seller-info">
-                        <div class="seller-pic set-bg" data-setbg="img/courses/sellers/1.jpg"></div>
+                        <div class="seller-pic set-bg" data-setbg="frontend/img/courses/sellers/1.jpg"></div>
                         <h6>By Sebastian Smith, <span>Italian Teacher</span></h6>
                     </div>
                 </div>
@@ -231,7 +231,7 @@
             <!-- course -->
             <div class="course-item">
                 <figure class="course-preview">
-                    <img src="img/courses/2.jpg" alt="">
+                    <img src="frontend/img/courses/2.jpg" alt="">
                     <div class="price">$25</div>
                 </figure>
                 <div class="course-content">
@@ -249,7 +249,7 @@
                         </div>
                     </div>
                     <div class="seller-info">
-                        <div class="seller-pic set-bg" data-setbg="img/courses/sellers/2.jpg"></div>
+                        <div class="seller-pic set-bg" data-setbg="frontend/img/courses/sellers/2.jpg"></div>
                         <h6>By Maria Williams, <span>English Teacher</span></h6>
                     </div>
                 </div>
@@ -257,7 +257,7 @@
             <!-- course -->
             <div class="course-item">
                 <figure class="course-preview">
-                    <img src="img/courses/3.jpg" alt="">
+                    <img src="frontend/img/courses/3.jpg" alt="">
                     <div class="price">$25</div>
                 </figure>
                 <div class="course-content">
@@ -275,7 +275,7 @@
                         </div>
                     </div>
                     <div class="seller-info">
-                        <div class="seller-pic set-bg" data-setbg="img/courses/sellers/3.jpg"></div>
+                        <div class="seller-pic set-bg" data-setbg="frontend/img/courses/sellers/3.jpg"></div>
                         <h6>By Jack Smith, <span>Photographer</span></h6>
                     </div>
                 </div>
@@ -283,7 +283,7 @@
             <!-- course -->
             <div class="course-item">
                 <figure class="course-preview">
-                    <img src="img/courses/4.jpg" alt="">
+                    <img src="frontend/img/courses/4.jpg" alt="">
                     <div class="price">$25</div>
                 </figure>
                 <div class="course-content">
@@ -301,7 +301,7 @@
                         </div>
                     </div>
                     <div class="seller-info">
-                        <div class="seller-pic set-bg" data-setbg="img/courses/sellers/1.jpg"></div>
+                        <div class="seller-pic set-bg" data-setbg="frontend/img/courses/sellers/1.jpg"></div>
                         <h6>By Sebastian Smith, <span>Italian Teacher</span></h6>
                     </div>
                 </div>
@@ -309,7 +309,7 @@
             <!-- course -->
             <div class="course-item">
                 <figure class="course-preview">
-                    <img src="img/courses/5.jpg" alt="">
+                    <img src="frontend/img/courses/5.jpg" alt="">
                     <div class="price">$25</div>
                 </figure>
                 <div class="course-content">
@@ -327,7 +327,7 @@
                         </div>
                     </div>
                     <div class="seller-info">
-                        <div class="seller-pic set-bg" data-setbg="img/courses/sellers/2.jpg"></div>
+                        <div class="seller-pic set-bg" data-setbg="frontend/img/courses/sellers/2.jpg"></div>
                         <h6>By Maria Williams, <span>English Teacher</span></h6>
                     </div>
                 </div>
@@ -335,7 +335,7 @@
             <!-- course -->
             <div class="course-item">
                 <figure class="course-preview">
-                    <img src="img/courses/6.jpg" alt="">
+                    <img src="frontend/img/courses/6.jpg" alt="">
                     <div class="price">$25</div>
                 </figure>
                 <div class="course-content">
@@ -353,7 +353,7 @@
                         </div>
                     </div>
                     <div class="seller-info">
-                        <div class="seller-pic set-bg" data-setbg="img/courses/sellers/3.jpg"></div>
+                        <div class="seller-pic set-bg" data-setbg="frontend/img/courses/sellers/3.jpg"></div>
                         <h6>By Jack Smith, <span>Photographer</span></h6>
                     </div>
                 </div>
@@ -361,7 +361,7 @@
             <!-- course -->
             <div class="course-item">
                 <figure class="course-preview">
-                    <img src="img/courses/3.jpg" alt="">
+                    <img src="frontend/img/courses/3.jpg" alt="">
                     <div class="price">$25</div>
                 </figure>
                 <div class="course-content">
@@ -379,7 +379,7 @@
                         </div>
                     </div>
                     <div class="seller-info">
-                        <div class="seller-pic set-bg" data-setbg="img/courses/sellers/3.jpg"></div>
+                        <div class="seller-pic set-bg" data-setbg="frontend/img/courses/sellers/3.jpg"></div>
                         <h6>By Jack Smith, <span>Photographer</span></h6>
                     </div>
                 </div>
@@ -397,28 +397,28 @@
         <div class="row">
             <div class="col-lg-3 col-sm-6 fact-item">
                 <figure>
-                    <img src="img/icons/1.png" alt="">
+                    <img src="frontend/img/icons/1.png" alt="">
                 </figure>
                 <h2>2500</h2>
                 <p>New Students</p>
             </div>
             <div class="col-lg-3 col-sm-6 fact-item">
                 <figure>
-                    <img src="img/icons/2.png" alt="">
+                    <img src="frontend/img/icons/2.png" alt="">
                 </figure>
                 <h2>14k</h2>
                 <p>Grad Students</p>
             </div>
             <div class="col-lg-3 col-sm-6 fact-item">
                 <figure>
-                    <img src="img/icons/3.png" alt="">
+                    <img src="frontend/img/icons/3.png" alt="">
                 </figure>
                 <h2>129</h2>
                 <p>Qualified Teachers</p>
             </div>
             <div class="col-lg-3 col-sm-6 fact-item">
                 <figure>
-                    <img src="img/icons/4.png" alt="">
+                    <img src="frontend/img/icons/4.png" alt="">
                 </figure>
                 <h2>1490</h2>
                 <p>Amazing Courses</p>
@@ -430,7 +430,7 @@
 
 
 <!-- Newslatter section -->
-<section class="newslatter-section set-bg" data-setbg="img/newslatter-bg.jpg">
+<section class="newslatter-section set-bg" data-setbg="frontend/img/newslatter-bg.jpg">
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
@@ -521,7 +521,7 @@
             </ul>
             <div class="footer-logo">
                 <a href="#">
-                    <img src="img/footer-logo.png" alt="">
+                    <img src="frontend/img/footer-logo.png" alt="">
                 </a>
             </div>
         </div>
@@ -543,11 +543,11 @@
 
 
 <!--====== Javascripts & Jquery ======-->
-<script src="frontend/asset/js/jquery-3.2.1.min.js"></script>
-<script src="frontend/asset/js/bootstrap.min.js"></script>
-<script src="frontend/asset/js/owl.carousel.min.js"></script>
-<script src="frontend/asset/js/circle-progress.min.js"></script>
-<script src="frontend/asset/js/main.js"></script>
+<script src="frontend/js/jquery-3.2.1.min.js"></script>
+<script src="frontend/js/bootstrap.min.js"></script>
+<script src="frontend/js/owl.carousel.min.js"></script>
+<script src="frontend/js/circle-progress.min.js"></script>
+<script src="frontend/js/main.js"></script>
 
 
 </body>

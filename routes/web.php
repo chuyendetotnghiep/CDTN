@@ -25,7 +25,7 @@ Route::group(['namespace' => 'Frontend'],function (){
         Route::get('/','LoginController@getLogin');
         Route::post('/','LoginController@postLogin');
     });
-
+    Route::get('home','HomeController@getHome');
 });
 
 
