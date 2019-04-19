@@ -20,4 +20,6 @@ Route::get('test1',function (){
     return 'abc';
 });
 
-
+Route::get('abc',function (){
+    return 'abc';
+});
