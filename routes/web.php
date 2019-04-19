@@ -20,11 +20,11 @@ Route::get('test1',function (){
     return 'abc';
 });
 
-Route::get('abc',function (){
-    return 'abc';
-});
-Route::get('abcd',function (){
-    return 'abcd';
+Route::group(['namespace' => 'Frontend'],function (){
+    Route::group(['prefix'=>'login'],function(){
+        Route::get('/','LoginController@getLogin');
+        Route::post('/','LoginController@postLogin');
+    });
 });
 
 
