@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4b9e8ff-242c-478f-9d72-31cba349b7d3" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
->>>>>>> 3eef6e43e00bf59b9a689b07b7bdfdff1123cf53
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -221,11 +217,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-<<<<<<< HEAD
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-=======
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
->>>>>>> 3eef6e43e00bf59b9a689b07b7bdfdff1123cf53
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -272,25 +264,11 @@
       <workItem from="1555576785800" duration="13000" />
       <workItem from="1555659695262" duration="1033000" />
       <workItem from="1555661433377" duration="2149000" />
-<<<<<<< HEAD
-      <workItem from="1555663890076" duration="1001000" />
-      <workItem from="1555665035044" duration="774000" />
-=======
       <workItem from="1555664961295" duration="626000" />
->>>>>>> 3eef6e43e00bf59b9a689b07b7bdfdff1123cf53
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="11634000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
-=======
     <option name="totallyTimeSpent" value="10485000" />
   </component>
   <component name="ToolWindowManager">
@@ -307,28 +285,12 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
->>>>>>> 3eef6e43e00bf59b9a689b07b7bdfdff1123cf53
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CSS-X-Fire" />
       <window_info id="Favorites" order="2" side_tool="true" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32941177" />
-=======
->>>>>>> 3eef6e43e00bf59b9a689b07b7bdfdff1123cf53
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.43361345" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.32941177" />
-=======
->>>>>>> 3eef6e43e00bf59b9a689b07b7bdfdff1123cf53
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />

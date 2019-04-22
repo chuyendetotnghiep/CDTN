@@ -22,4 +22,16 @@ Route::get('test1',function (){
 Route::get('suatin','TestController@suatin')->name('suatin');
 
 
+Route::group(['namespace' => 'Frontend'],function (){
+    Route::group(['prefix'=>'login'],function(){
+        Route::get('/','LoginController@getLogin');
+        Route::post('/','LoginController@postLogin');
+    });
+    Route::get('home','HomeController@getHome');
+});
+
+
+
+
+
 
