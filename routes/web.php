@@ -19,6 +19,8 @@ Route::get('test','TestController@test')->name('test');
 Route::get('test1',function (){
     return 'abc';
 });
+Route::get('suatin','TestController@suatin')->name('suatin');
+
 
 Route::group(['namespace' => 'Frontend'],function (){
     Route::group(['prefix'=>'login'],function(){

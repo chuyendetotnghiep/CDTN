@@ -1,5 +1,7 @@
 <?php
 
+use Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider;
+
 return [
 
     /*
@@ -230,3 +232,4 @@ return [
     ],
 
 ];
+

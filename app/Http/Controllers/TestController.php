@@ -19,4 +19,7 @@ class TestController extends Controller
     public function test(){
         return view('index');
     }
+    public function suatin(){
+        return view('BackEnd.QLTrangTin.SuaTin');
+    }
 }

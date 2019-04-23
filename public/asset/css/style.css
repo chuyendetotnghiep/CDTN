@@ -1643,7 +1643,9 @@ PANELS CONFIGURATIONS
 	cursor: move;
 	display: inline-block !important;
 	margin-bottom: 7px !important;
-	margin-right: 7px !important;
+	margin-right: 7px !impor
+    ...
+    .tant;
 	padding: 10px;
 }
 
