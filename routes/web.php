@@ -26,6 +26,9 @@ Route::group(['namespace' => 'Frontend'],function (){
         Route::post('/','LoginController@postLogin');
     });
     Route::get('home','HomeController@getHome');
+    Route::get('contact','ContactController@getContact');
+    Route::get('project','ProjectController@getProject');
+    Route::get('aboutus','AboutusController@getAboutus');
 });
 
 
