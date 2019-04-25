@@ -35,7 +35,7 @@
     *********************************************************************************************************************************************************** -->
 <div id="login-page">
     <div class="container">
-        <form class="form-login" action="index.html">
+        <form class="form-login" action="{{route('backend.dashboard')}}">
             <h2 class="form-login-heading">Welcome TLU</h2>
             <div class="login-wrap">
                 <input type="text" class="form-control" placeholder="User ID" autofocus>

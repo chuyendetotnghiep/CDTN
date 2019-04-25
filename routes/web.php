@@ -20,12 +20,17 @@ Route::get('test1',function (){
     return 'abc';
 });
 
-Route::group(['namespace' => 'Frontend'],function (){
-    Route::group(['prefix'=>'login'],function(){
+Route::group(['as' => 'frontend.','namespace' => 'Frontend'],function (){
+    Route::group(['prefix' => 'login'],function(){
         Route::get('/','LoginController@getLogin');
         Route::post('/','LoginController@postLogin');
     });
     Route::get('home','HomeController@getHome');
+});
+Route::group(['as' => 'backend.','namespace' => 'Backend'],function (){
+   Route::get('dashboard','DashboardController@getDashboard')->name('dashboard');
+   Route::get('logout','DashboardController@getLogout')->name('logout');
+
 });
 
 
