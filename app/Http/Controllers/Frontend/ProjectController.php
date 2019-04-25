@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Frontend;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
-class TestController extends Controller
+class ProjectController extends Controller
 {
     /**
      * Handle the incoming request.
@@ -16,10 +17,7 @@ class TestController extends Controller
     {
         //
     }
-    public function test(){
-        return view('index');
-    }
-    public function suatin(){
-        return view('BackEnd.QLTrangTin.SuaTin');
+    public function getProject(){
+        return view('frontend.project');
     }
 }
