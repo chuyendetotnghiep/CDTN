@@ -36,6 +36,7 @@ Route::group(['as' => 'backend.','namespace' => 'Backend'],function (){
    Route::get('dashboard','DashboardController@getDashboard')->name('dashboard');
    Route::get('logout','DashboardController@getLogout')->name('logout');
 
+
 });
 
 
