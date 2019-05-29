@@ -11,19 +11,22 @@
     @yield('title')
 
     <!-- Favicons -->
-    <link href="asset/img/favicon.png" rel="icon">
-    <link href="asset/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="{{url(asset/img/favicon.png)}}" rel="icon">
+    <link href="{{url(asset/img/apple-touch-icon.png)}}" rel="apple-touch-icon">
 
     <!-- Bootstrap core CSS -->
     <link href="{{url('asset/lib/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
     <!--external css-->
-    <link href="asset/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="asset/css/zabuto_calendar.css">
-    <link rel="stylesheet" type="text/css" href="asset/lib/gritter/css/jquery.gritter.css" />
+    <link href="{{url(asset/lib/font-awesome/css/font-awesome.css)}}" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="{{url(asset/css/zabuto_calendar.css)}}">
+    <link rel="stylesheet" type="text/css" href="{{url(asset/lib/gritter/css/jquery.gritter.css)}}" />
     <!-- Custom styles for this template -->
-    <link href="asset/css/style.css" rel="stylesheet">
-    <link href="asset/css/style-responsive.css" rel="stylesheet">
-    <script src="asset/lib/chart-master/Chart.js"></script>
+    <link href="{{url(asset/css/style.css)}}" rel="stylesheet">
+    <link href="{{url(asset/css/style-responsive.css)}}" rel="stylesheet">
+    <link href="{{url(asset/lib/advanced-datatable/css/demo_page.css)}}" rel="stylesheet" />
+    <link href="{{url(asset/lib/advanced-datatable/css/demo_table.css)}}" rel="stylesheet" />
+    <link rel="stylesheet" href="{{url(asset/lib/advanced-datatable/css/DT_bootstrap.css)}}" />
+    <script src="{{url(asset/lib/chart-master/Chart.js)}}"></script>
 
     <!-- =======================================================
       Template Name: Dashio
@@ -249,13 +252,13 @@
                 <p class="centered"><a href="profile.html"><img src="asset/img/duong.jpg" class="img-circle" width="80"></a></p>
                 <h5 class="centered">Dương Đẹp Trai</h5>
                 <li class="mt">
-                    <a class="active" href="index.html">
-                        <i class="fa fa-dashboard"></i>
-                        <span>Dashboard</span>
+                    <a class="active" href="{{route('backend.dashboard')}}">
+                        <i class="fa fa-align-justify"></i>
+                        <span>Trang chủ</span>
                     </a>
                 </li>
                 <li class="sub-menu">
-                    <a href="javascript:;">
+                    <a href="">
                         <i class="fa fa-desktop"></i>
                         <span>UI Elements</span>
                     </a>
@@ -392,20 +395,28 @@
     <!--footer end-->
 </section>
 <!-- js placed at the end of the document so the pages load faster -->
-<script src="asset/lib/jquery/jquery.min.js"></script>
+<script src="{{url(asset/lib/jquery/jquery.min.js)}}"></script>
 
-<script src="asset/lib/bootstrap/js/bootstrap.min.js"></script>
-<script class="include" type="text/javascript" src="asset/lib/jquery.dcjqaccordion.2.7.js"></script>
-<script src="asset/lib/jquery.scrollTo.min.js"></script>
-<script src="asset/lib/jquery.nicescroll.js" type="text/javascript"></script>
-<script src="asset/lib/jquery.sparkline.js"></script>
+<script src="{{url(asset/lib/bootstrap/js/bootstrap.min.js)}}"></script>
+<script class="include" type="text/javascript" src="{{url(asset/lib/jquery.dcjqaccordion.2.7.js)}}"></script>
+<script src="{{url(asset/lib/jquery.scrollTo.min.js)}}"></script>
+<script src="{{url(asset/lib/jquery.nicescroll.js)}}" type="text/javascript"></script>
+<script src="{{url(asset/lib/jquery.sparkline.js)}}"></script>
 <!--common script for all pages-->
-<script src="asset/lib/common-scripts.js"></script>
-<script type="text/javascript" src="asset/lib/gritter/js/jquery.gritter.js"></script>
-<script type="text/javascript" src="asset/lib/gritter-conf.js"></script>
+
+<script type="text/javascript" src="{{url(asset/lib/gritter/js/jquery.gritter.js)}}"></script>
+<script type="text/javascript" src="{{url(asset/lib/gritter-conf.js)}}"></script>
 <!--script for this page-->
-<script src="asset/lib/sparkline-chart.js"></script>
-<script src="asset/lib/zabuto_calendar.js"></script>
+<script src="{{url(asset/lib/sparkline-chart.js)}}"></script>
+<script src="{{url(asset/lib/zabuto_calendar.js)}}"></script>
+
+<script type="text/javascript" language="javascript" src="{{url('asset/lib/advanced-datatable/js/jquery.js')}}"></script>
+<script type="text/javascript" language="javascript" src="{{url(asset/lib/advanced-datatable/js/jquery.dataTables.js)}}"></script>
+
+
+<!--common script for all pages-->
+
+
 <script type="text/javascript">
     $(document).ready(function() {
         var unique_id = $.gritter.add({
