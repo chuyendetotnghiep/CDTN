@@ -36,6 +36,11 @@ Route::group(['as' => 'backend.','namespace' => 'Backend'],function (){
    Route::get('dashboard','DashboardController@getDashboard')->name('dashboard');
    Route::get('logout','DashboardController@getLogout')->name('logout');
 
+    Route::resource('account', 'AccountController');
+    Route::resource('newws', 'NewsController');
+    Route::resource('research', 'ResearchsController');
+   Route::get('logout','DashboardController@getLogout')->name('logout');
+
 
 });
 
